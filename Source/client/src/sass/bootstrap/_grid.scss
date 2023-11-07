@@ -1,0 +1,29 @@
+/*
+*
+* Grid
+*
+* Bootstrap auto column fix.
+*
+*/
+
+.col,
+.col-sm,
+.col-md,
+.col-lg,
+.col-xl {
+  min-width: 0;
+}
+
+.grid-container-element { 
+  display:inline-flex;
+  gap: 15px; 
+  grid-template-columns: 1fr 2fr; 
+  width: 100%; 
+} 
+.grid-child-element-contacts { 
+  width: 35%
+}
+
+.grid-child-element-chat { 
+  width: 130%
+}
